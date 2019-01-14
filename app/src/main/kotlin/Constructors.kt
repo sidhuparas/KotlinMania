@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
 
     // 1. Primary Constructor
     val paras = Person("Paras")

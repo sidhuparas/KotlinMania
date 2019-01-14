@@ -7,7 +7,7 @@
 const val marksInMaths: Int = 56
 const val marksInScience: Int = 89
 
-fun main(args: Array<String>) {
+fun main() {
     printUsingStringTemplate()
     executeIfElseExpression()
     executeWhenExpression()
