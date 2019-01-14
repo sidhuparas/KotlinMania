@@ -7,7 +7,6 @@
 const val marksInMaths: Int = 56
 const val marksInScience: Int = 89
 
-
 fun main(args: Array<String>) {
     printUsingStringTemplate()
     executeIfElseExpression()
@@ -19,6 +18,8 @@ fun printUsingStringTemplate() {
 
     println("My marks in Maths are $marksInMaths while I scored $marksInScience in Science. " +
             "Overall my total is $totalMarks")
+
+    println("Highest marks are ${if (marksInMaths > marksInScience) marksInMaths else marksInScience}")
 }
 
 fun executeIfElseExpression() {
