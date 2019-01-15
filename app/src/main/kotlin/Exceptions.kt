@@ -4,7 +4,7 @@ import java.lang.IllegalArgumentException
 import kotlin.NumberFormatException
 
 fun main(args: Array<String>) {
-    //noCheckedExceptions()
+    noCheckedExceptions()
     tryIsAnExpression()
     throwIsAnExpression()
 }
